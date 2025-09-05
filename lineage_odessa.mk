@@ -28,6 +28,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_MINI_GAPPS := true
 
 # Device identifiers
 PRODUCT_NAME := lineage_odessa
