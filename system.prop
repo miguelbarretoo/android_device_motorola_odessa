@@ -7,3 +7,7 @@ ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=100
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+
+ro.product.marketname=Motorola Moto G9 Plus
+ro.infinity.soc=Qualcomm Snapdragon 730G
+ro.infinity.camera=64MP + 8MP + 2MP + 2MP
