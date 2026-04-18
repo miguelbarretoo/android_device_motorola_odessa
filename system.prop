@@ -7,3 +7,13 @@ ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=100
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+
+# MistOS Flags
+ro.mist.display=1080 x 2400, 60 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Snapdragon 730G
+ro.mist.camera=64MP + 8MP + 2MP
+ro.mist.front=16MP
+ro.mist.platform=Snapdragon 730G
+ro.mist.screen=6.8' IPS LCD
+ro.mist.device.name=Moto G9 Plus
