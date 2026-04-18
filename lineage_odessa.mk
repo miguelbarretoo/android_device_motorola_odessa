@@ -22,11 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
 WITH_GMS := true
-INFINITY_MAINTAINER := "@miguelbarretoo"
 TARGET_USES_MINI_GAPPS := true
 TARGET_HAS_UDFPS := false 
 TARGET_DISABLE_EPPE := true
