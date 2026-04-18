@@ -24,6 +24,9 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Set maintainer
+MISTOS_MAINTAINER := "@miguelbarretoo"
+
 # Flags
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := false
