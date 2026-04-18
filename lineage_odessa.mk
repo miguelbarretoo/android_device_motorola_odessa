@@ -25,15 +25,14 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
-WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-TARGET_HAS_UDFPS := false 
 TARGET_DISABLE_EPPE := true
-BUILD_BCR := false
 TARGET_ENABLE_BLUR := false
 
+# Signing
+-include vendor/lineage-priv/keys/keys.mk
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := infinity_odessa
+PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
