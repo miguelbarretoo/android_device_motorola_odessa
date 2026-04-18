@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_odessa.mk
+    $(LOCAL_DIR)/lineage_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_odessa-eng \
-    infinity_odessa-user \
-    infinity_odessa-userdebug
+    lineage_odessa-eng \
+    lineage_odessa-user \
+    lineage_odessa-userdebug
