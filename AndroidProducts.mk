@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The yaapOS Project
+# Copyright (C) 2017-2020 The blissOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_odessa.mk
+    $(LOCAL_DIR)/bliss_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_odessa-eng \
-    yaap_odessa-user \
-    yaap_odessa-userdebug
+    bliss_odessa-eng \
+    bliss_odessa-user \
+    bliss_odessa-userdebug
