@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The blissOS Project
+# Copyright (C) 2017-2020 The aicpOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_odessa.mk
+    $(LOCAL_DIR)/aicp_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_odessa-eng \
-    bliss_odessa-user \
-    bliss_odessa-userdebug
+    aicp_odessa-eng \
+    aicp_odessa-user \
+    aicp_odessa-userdebug
