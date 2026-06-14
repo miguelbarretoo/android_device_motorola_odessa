@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The aicpOS Project
+# Copyright (C) 2017-2020 The lineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-# Inherit some common aicp stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+# Inherit some common lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
 TARGET_DISABLE_EPPE := true
@@ -32,7 +32,7 @@ TARGET_ENABLE_BLUR := false
 -include vendor/lineage-priv/keys/keys.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aicp_odessa
+PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
@@ -48,6 +48,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-# AICP Device Maintainers
+# lineage Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="@miguelbarreto on telegram"
